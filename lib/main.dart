@@ -118,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   onPressed: () => _showModalsheet(context))
             ],
-            title: Text(
+            title:  Text(
               'Expanse manager',
               style: TextStyle(color: Theme.of(context).primaryColor),
             ),

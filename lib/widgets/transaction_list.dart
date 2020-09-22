@@ -77,10 +77,10 @@ class TransactionList extends StatelessWidget {
                           onPressed: () =>
                               deletTransaction(transactions[index].id),
                         ): RaisedButton.icon(
-                        textColor: Colors.red,
+                        textColor:  Colors.red,
                           onPressed: ()=>deletTransaction(transactions[index].id),
-                          icon: Icon(Icons.delete),
-                          label: Text('Delete'))
+                          icon:const Icon(Icons.delete),
+                          label: const Text('Delete'))
                       
                 ),
               );
